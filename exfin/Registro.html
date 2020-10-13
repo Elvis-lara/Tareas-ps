@@ -1,0 +1,67 @@
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"&amp;gt;>
+	<meta name="utf-8">
+  	<meta name="viewport" content="width=device width, initial scale = 1">
+	<title>This is my first web page</title>
+	<link rel="icon" type="image/png" href="Imagen/icon.png" />
+	<link rel="stylesheet" type="text/css" href="css/elcss.css" />	
+</head>
+<body bgcolor="#E3EE26">
+<header>
+	<input type="checkbox" id="meeno">
+	<label for="meeno"><img src="Imagen/menii.jpg" width="40" height="40" alt="#"></label>
+	<br>
+<nav class="menu">	
+		<ul class="li">	
+		<li><a href="index.html"> Home </a></li>
+		<li><a href="sobremi.html"> About me </a></li>
+		<li><a href="Servicios.html">	Servicios y productos </a></li>
+		<li><a href="contact.html"> Contact me </a></li>
+		<li><a href="informacion.html" >Información</a></li>
+		<li><a href="Registro.html"> Registro </a></li>
+		</ul>
+</nav>
+		<hr></hr>
+</nav>
+<center>
+	<a href="Imagen/icon.png">
+	<img src="Imagen/icon.png" align="cenetr" width="90" height="90"></a><h1><b>Instrumentos<br><br> DO MI SO</b></h1>
+	</center>
+</center>
+</header>
+
+
+	<form action="registro.php" method="POST">
+		<center><h2> <em>Formulario de registro </em></h2></center>
+
+		<label for="mail">Correo:</label>
+		<input type="email" id="mail" name="user_email" placeholder="correo electronico" required/><br>
+		<label for="dpi">DPI <span><em>(Requerido)</em></span></label>
+		<input type="text" name="dpi" class="form-input" required/>
+		<br>
+		<label for="nombre">Nombre <span><em>(Requerido)</em></span></label>
+		<input type="text" name="nombre" class="form-input" required/>
+		<br>
+		<label for="apellido">Apellidp <span><em>(Requerido)</em></span></label>
+		<input type="text" name="apellidp" class="form-input" required/>
+		<br>
+		<label for="sueldo">Sueldo <span><em>(Requerido)</em></span></label>
+		<input type="text" name="sueldo" class="form-input" required/>
+		<p>Tu comentarios:<p>
+		<TEXTAREA name=comentario rows=5 cols=40 wrap=virtual placeholder="Opcional">
+		</TEXTAREA>
+		<br>
+		<input type="submit" class="form-btn" name="submit" value="subscribirse"/><br>
+		<input type=reset name="Borrar" value="Borrar"/>
+	</form>
+
+<br>
+<br>
+<center>
+	<div id="foter"> 		
+		<footer><h6>Derechos reservados 2,020, 2,025 ciudad de Guatemala 2020 hecho por Elvis Lara <br> para Do Mi Sol</h6></footer>
+	</div>
+</center>
+</body>
+</html>

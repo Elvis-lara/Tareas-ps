@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="grafis/diseño.css">
+	<title> validar contraseña</title>
+	<link rel="icon" type="image/png" href="Imagen/icon.png" />
+	<link rel="stylesheet" type="text/css" href="css/elcss.css" />
+	<script>
+		function comprobarClave(){
+			clave1 = document.f1.clave1.value
+			clave2 = document.f1.clave2.value
+
+			if (clave1 == "Elvis" && clave2 == "lara"){
+			alert("los datos coinciden...\n Pase adelante.");
+			var href ="index.html";
+			window.location=href;
+    }
+
+    else{ 
+    	alert("las dos claves son distintas...\n intente nuevamente.");
+    	var href = "examen.html";
+    	window.location=href;
+    };
+
+  }
+</script>
+</head>
+
+<body bgcolor="#E3EE26">
+
+<center>
+	<a href="Imagen/icon.png">
+	<img src="Imagen/icon.png" align="cenetr" width="90" height="90"></a><h1><b>Instrumentos<br><br> DO MI SO</b></h1>
+	</center>
+</center>
+
+
+	<center><p>Usuario: Elvis <br> clave: lara</p></center>
+	<article id="grt">
+   	<center><h1> VALIDAR SOLO SI EL USUARIO Y CONTRASEÑA COINCIDEN</h1></center>
+	<center><br>
+	escribe una supuesta contraseña dos veces una en cada campo, y pulsa el boton. JavaScript te dira si las dos son iguales.</center>  
+</article>
+</section>
+</nav>
+
+	<br>
+	<form action="" name="f1" style="text-align: center;text-indent: unset; ">
+		USUARIO:<br> <input type="password" name ="clave1" size="20">
+		<br>
+		PON TU CLAVE: <br> <input type="password" name ="clave2" size="20">
+		<br>
+		<input type="button" value=" Verificar si son iguales "  onclick="comprobarClave()  " >
+
+	</form>
+
+</article>
+</section>
+</center>    
+
+ </body>
+ </html>
